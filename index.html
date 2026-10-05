@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Haveli Mysuru — a classical Indian vegetarian dining experience. Explore our menu, reserve a table, and share your experience.">
+  <title>Haveli Mysuru | Classical Indian Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-strip">PURE VEGETARIAN • ROYAL INDIAN FLAVOURS • MYSURU</div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Haveli Mysuru home">
+      <span class="brand-mark">H</span>
+      <span><b>HAVELI</b><small>MYSURU</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#story">Our Haveli</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a class="nav-cta" href="#booking">Reserve a Table</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">A ROYAL TABLE IN THE HEART OF MYSURU</p>
+        <h1>Where every meal<br><em>feels like a celebration.</em></h1>
+        <p class="hero-copy">Step into a warm haveli-inspired dining room and discover rich vegetarian curries, tandoori favourites, fragrant biryanis and timeless Indian hospitality.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#booking">Book Your Table</a>
+          <a class="btn btn-ghost" href="#menu">Explore Menu <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span>✦</span> Crafted for slow meals, good company & unforgettable flavours</div>
+      </div>
+      <div class="hero-scroll">SCROLL TO DISCOVER <span>↓</span></div>
+    </section>
+
+    <section id="story" class="section story">
+      <div class="story-grid">
+        <div class="story-photo photo-card">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1100&q=85" alt="Elegant restaurant interior">
+          <div class="photo-stamp">H<br><small>MYSURU</small></div>
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">THE HAVELI EXPERIENCE</p>
+          <h2>A little old-world charm,<br><em>a lot of flavour.</em></h2>
+          <p>Haveli Mysuru brings together the grace of a traditional Indian courtyard and the comfort of a contemporary restaurant. Our menu celebrates vegetarian food with slow-cooked gravies, smoky tandoor flavours, fresh breads and festive street-food favourites.</p>
+          <p>Come for a family dinner, a celebration with friends, or simply a quiet meal that deserves to be remembered.</p>
+          <div class="signature">— Haveli Mysuru</div>
+          <div class="feature-row">
+            <div><span>✦</span><b>Pure Veg</b><small>Thoughtfully prepared</small></div>
+            <div><span>❖</span><b>Royal Flavours</b><small>Traditional recipes</small></div>
+            <div><span>♨</span><b>Fresh Tandoor</b><small>Made to order</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <div class="quote-inner">
+        <span class="quote-mark">“</span>
+        <p>Good food is the beginning of a beautiful memory.</p>
+        <small>— The Haveli Table</small>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <div class="section-heading">
+        <p class="eyebrow">FROM OUR KITCHEN</p>
+        <h2>The Haveli <em>Menu</em></h2>
+        <p>Explore the dishes from your uploaded menu. Search by dish or filter by category.</p>
+      </div>
+      <div class="menu-tools">
+        <div class="menu-filters" id="menuFilters"></div>
+        <label class="search-box">⌕ <input id="menuSearch" type="search" placeholder="Search dishes..."></label>
+      </div>
+      <div class="menu-grid" id="menuGrid"></div>
+      <div class="menu-pages">
+        <p>Prefer the original printed menu?</p>
+        <div id="menuPageLinks"></div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="section-heading left">
+        <p class="eyebrow">A FEAST FOR THE EYES</p>
+        <h2>Inside the <em>Haveli</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <img class="g-wide" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=85" alt="Indian samosas and snacks">
+        <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=900&q=85" alt="Indian vegetarian food">
+        <img src="https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=900&q=85" alt="Indian curry with rice">
+        <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=900&q=85" alt="Paneer dish">
+        <img class="g-wide" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85" alt="Warm restaurant dining room">
+      </div>
+    </section>
+
+    <section id="booking" class="section booking-section">
+      <div class="booking-wrap">
+        <div class="booking-intro">
+          <p class="eyebrow">YOUR TABLE AWAITS</p>
+          <h2>Reserve your<br><em>Haveli evening.</em></h2>
+          <p>Choose your date, time and party size. This demo booking system confirms reservations in your browser. Connect the form to your restaurant's backend, WhatsApp or email service for live bookings.</p>
+          <div class="contact-card">
+            <div><span>⌖</span><b>Haveli Mysuru</b><small>Mysuru, Karnataka</small></div>
+            <div><span>◷</span><b>Daily</b><small>12:00 PM — 11:00 PM</small></div>
+          </div>
+        </div>
+        <form id="bookingForm" class="booking-form">
+          <div class="form-title"><span>TABLE RESERVATION</span><strong>Book a table</strong></div>
+          <div class="form-row">
+            <label>Name<input name="name" required placeholder="Your name"></label>
+            <label>Phone<input name="phone" required type="tel" placeholder="+91"></label>
+          </div>
+          <div class="form-row">
+            <label>Date<input name="date" required type="date"></label>
+            <label>Time
+              <select name="time" required>
+                <option value="">Choose time</option>
+                <option>12:30 PM</option><option>1:00 PM</option><option>1:30 PM</option>
+                <option>2:00 PM</option><option>7:00 PM</option><option>7:30 PM</option>
+                <option>8:00 PM</option><option>8:30 PM</option><option>9:00 PM</option>
+                <option>9:30 PM</option><option>10:00 PM</option>
+              </select>
+            </label>
+          </div>
+          <label>Guests
+            <select name="guests" required>
+              <option value="">Number of guests</option><option>1</option><option>2</option><option>3</option>
+              <option>4</option><option>5</option><option>6</option><option>7</option><option>8+</option>
+            </select>
+          </label>
+          <label>Special request <textarea name="request" rows="3" placeholder="Birthday, anniversary, Jain meal, window table..."></textarea></label>
+          <button class="btn btn-primary full" type="submit">Confirm Reservation →</button>
+          <p class="form-message" id="bookingMessage"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews-section">
+      <div class="section-heading">
+        <p class="eyebrow">GUEST STORIES</p>
+        <h2>What our guests <em>say</em></h2>
+      </div>
+      <div class="review-summary">
+        <div class="rating-big"><strong>4.9</strong><span>★★★★★</span><small>Guest rating</small></div>
+        <div class="rating-copy"><b>Made for memorable meals.</b><p>Share your experience after your visit and help the next guest discover their favourite Haveli dish.</p></div>
+        <button class="btn btn-dark" id="openReview">Write a Review</button>
+      </div>
+      <div class="reviews-grid" id="reviewsGrid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="brand footer-brand"><span class="brand-mark">H</span><span><b>HAVELI</b><small>MYSURU</small></span></div>
+      <p>Classical Indian vegetarian dining, served with warmth.</p>
+      <div class="socials"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">FB</a><a href="#" aria-label="WhatsApp">WA</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Haveli Mysuru</span><span>Pure vegetarian • Mysuru, Karnataka</span></div>
+  </footer>
+
+  <dialog id="reviewDialog" class="review-dialog">
+    <form method="dialog" id="reviewForm" class="review-form">
+      <button class="dialog-close" value="cancel" aria-label="Close">×</button>
+      <p class="eyebrow">YOUR EXPERIENCE</p>
+      <h2>Write a <em>Review</em></h2>
+      <label>Your name<input name="reviewer" required placeholder="Your name"></label>
+      <label>Rating
+        <select name="rating" required><option value="5">★★★★★ — Excellent</option><option value="4">★★★★☆ — Very good</option><option value="3">★★★☆☆ — Good</option><option value="2">★★☆☆☆ — Fair</option><option value="1">★☆☆☆☆ — Poor</option></select>
+      </label>
+      <label>Your review<textarea name="review" required rows="4" placeholder="Tell us about your food and experience..."></textarea></label>
+      <button class="btn btn-primary full" type="submit">Publish Review</button>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
